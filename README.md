@@ -5,17 +5,17 @@
 This project extracts transcripts from YouTube videos and converts them into concise,meaningful bullet-point notes.It is designed to handle long videos efficiently using chunk-based processing and works best with English transcripts.
 
 ## Features:
--Extracts transcript from youtube videos
--Handles long videos using chunking
--Generates summaries using Transformer model(FLAN-T5)
--Basic multiingual handling (Hindi->English translation fallback)
--optimized for performance by limiting chunk processing
+- Extracts transcript from youtube videos
+- Handles long videos using chunking
+- Generates summaries using Transformer model(FLAN-T5)
+- Basic multiingual handling (Hindi->English translation fallback)
+- optimized for performance by limiting chunk processing
 
 ## Tech Stack
--Python
--PyTorch
--Hugging Face Transformers('Google/flan-t5-base)
--YouTube Transcript API
+- Python
+- PyTorch
+- Hugging Face Transformers('Google/flan-t5-base)
+- YouTube Transcript API
 
 ## How It Works
 1.Extract video ID from YOuTube URL
@@ -26,10 +26,10 @@ This project extracts transcripts from YouTube videos and converts them into con
 
 ## Project Structure
 ai-video-notes/
--app.py #Main execution script
--utils.py # Helper functions
--reuirements.txt
--README.md
+- app.py #Main execution script
+- utils.py # Helper functions
+- reuirements.txt
+- README.md
 
 ## How to RUn
 ### 1.Install dependemcies
